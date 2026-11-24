@@ -540,8 +540,16 @@ p {
   gap: 1.1rem;
   padding: 1.3rem;
   border: 1px solid rgba(17, 18, 20, 0.35);
+  color: var(--ink);
   font-size: 0.9rem;
   font-weight: 600;
+  text-decoration: none;
+  transition: background-color 160ms ease;
+}
+
+.cv-placeholder:hover,
+.cv-placeholder:focus-visible {
+  background: rgba(255, 255, 255, 0.35);
 }
 
 .cv-file-icon {
@@ -595,9 +603,20 @@ p {
   color: var(--paper);
 }
 
-.footer-contact .content-prompt {
-  border-color: #44453f;
-  color: #a6a69e !important;
+.profile-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--accent);
+  color: var(--paper);
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.profile-link span {
+  color: var(--accent);
 }
 
 .footer-bottom {

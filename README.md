@@ -22,4 +22,4 @@ Then visit `http://localhost:8000`.
 
 ## Personalize
 
-Update the draft copy and content prompts in `index.html`. Replace the CV placeholder with a link to a PDF, and add an email address and professional profile links when ready. The site uses Google Fonts when a network connection is available and falls back to system fonts otherwise.
+Update the draft copy in `index.html`. The CV and contact profile links are in the CV and contact sections. The site uses Google Fonts when a network connection is available and falls back to system fonts otherwise.
